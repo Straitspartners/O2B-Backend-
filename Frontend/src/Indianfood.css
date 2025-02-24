@@ -1,0 +1,101 @@
+
+/* Background Section */
+.in-inner {
+
+
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+  justify-content: center; /* Aligns elements in the middle vertically */
+  align-items: center; /* Center horizontally (remove if not needed) */
+  
+
+  margin-top: 0;
+  padding: 0;
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  min-height: 100vh;
+  max-width: 100% !important;
+  
+  background: url("./Asset/COOK.png") no-repeat center/cover !important;
+}
+
+/* Text Container */
+.text-containers {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.in-h1 {
+ 
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #4b352d;
+}
+
+.in-p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #4b352d;
+  font-style: normal;
+  text-align: center;
+  width: 80%;
+}
+
+/* Card Container */
+.in-grid {
+  display: grid;
+  border: none;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr); /* Create a grid with 3 columns */
+  gap: 0px;
+  padding:0px;
+  width:50%; /* Set the width of the grid */
+  margin: 0; /* Center the grid container */
+  justify-content: center; /* Center-align the last row */
+  justify-self: center;
+}
+
+
+
+/* Others Container */
+.others-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.others-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.others-label {
+  font-size: 1.2rem;
+  color: #4b352d;
+}
+
+.in-card-button{
+  width: 80%;
+}
+
+.card-buttons {
+  margin-top: 20px;
+  display: block;
+ 
+  padding: 10px;
+  background-color: #4ebb87;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+

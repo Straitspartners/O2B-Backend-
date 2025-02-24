@@ -1,0 +1,101 @@
+
+.v-container {
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    background-image: url("./Asset/vendorbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 640px;
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+.v-h1{
+    padding-top: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #ffffff;
+}
+
+.v-p{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Card Container */
+.card-containers {
+    display: grid;
+    border: none;
+    grid-template-columns: repeat(4, 1fr); /* Create a grid with 3 columns */
+    gap: 20px;
+    padding: 20px;
+    width: 90%; /* Set the width of the grid */
+    margin: 0 auto; /* Center the grid container */
+    justify-content: center; /* Center-align the last row */
+}
+
+.cards {
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-images {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-buttons {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4EBB87;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Others Container */
+.others-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.others-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.others-label {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.others-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #35d79c;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    text-align: center;
+}

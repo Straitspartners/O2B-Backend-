@@ -1,0 +1,62 @@
+.body-setting{
+    margin-top: 0;
+    padding: 0;
+    background-image: url("./Asset/settingsbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.div-setting{
+      
+  background: rgba(255, 255, 255, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  line-height:40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10PX;
+}
+.custom-button {
+  background: transparent;
+  border: 0;
+  color: #000000 !important; 
+}
+.custom-button:hover{
+background-color: transparent;
+
+}
+
+.custom-button:active{
+  background-color: transparent;
+}
+.it-p{
+  width: 40%;
+  display: flex;
+  font-size: 16PX;
+  justify-content: space-between;
+
+}
+
+.it-p1{
+  border-bottom: 1px solid black ;
+width: 40%;
+}
+.it-custom-button{
+  background: transparent;
+  border: 0;
+  color: #000000 !important; 
+}
+.it-custom-button:hover{
+  background-color: transparent;
+  
+  }
